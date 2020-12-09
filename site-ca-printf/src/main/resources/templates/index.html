@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="PT-BR" xmlns="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CA Printf</title>
+</head>
+<body>
+    <div th:if="${message}" th:text="${message}" th:class="${'alert' + alertClass}"/>
+    <h1>CA Printf</h1>
+    <ul>
+        <li>Principal</li>
+        <li>Documentos</li>
+        <li>Sobre</li>
+        <li>Fale conosco</li>
+        <button>Entrar</button>
+    </ul>
+</body>
+</html>
