@@ -1,0 +1,15 @@
+.logo {
+    float: left;
+    width: 10%;
+    margin-top: auto;
+    border: none;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.menu {
+    font-size: 1.5rem;
+    height: 80px;
+}
